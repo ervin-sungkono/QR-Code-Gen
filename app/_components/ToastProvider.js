@@ -21,7 +21,7 @@ export default function ToastProvider({ children }){
           " relative flex p-1 min-h-10 rounded-md justify-between overflow-hidden cursor-pointer mt-2 mx-6 mb-2 xs:mx-0 xs:mb-0"
         }
         bodyClassName={() => "text-sm font-medium flex items-center p-3"}
-        position="bottom"
+        position="bottom-center"
         autoClose={3000}
       />
     </>
